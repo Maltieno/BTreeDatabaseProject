@@ -4,6 +4,7 @@
 //todo Add Pushing Key onto tree
 //todo Add Deleting Key From tree
 //todo Add Searching for keys
+//todo Add Data attached to each key
 //
 
 #include <iostream>
