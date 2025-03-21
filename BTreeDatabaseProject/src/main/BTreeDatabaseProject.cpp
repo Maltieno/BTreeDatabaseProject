@@ -8,9 +8,16 @@
 //
 
 #include <iostream>
+#include <vector>
+
+#include "BTreeKeys.hpp"
+#include "BTreeNode.hpp"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::string testing;
+    
+    std::cin >> testing;
+    std::cout << testing << "\n";
 }
 
