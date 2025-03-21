@@ -130,6 +130,7 @@
     <ClCompile Include="BTreeDatabaseProject.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BTreeKeys.hpp" />
     <ClInclude Include="BTreeNode.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
