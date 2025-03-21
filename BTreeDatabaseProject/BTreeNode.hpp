@@ -4,6 +4,8 @@
 #include <iostream>
 #include <vector>
 
+#include "BTreeKeys.hpp"
+
 class BTreeNode
 {
 public:
@@ -12,7 +14,7 @@ public:
     bool leaf;        //True only if the node is leaf of tree
 
     //!Using Vectors, we're going to dynamically allocate memory for some Vars.
-    std::vector<int> keys;                     //Vector to store our Keys
+    std::vector<BTreeKey> keys;                //Vector to store our Keys
     std::vector<BTreeNode*> childNodeLocation; //Vector to Store our Pointers to ChildNodeLocations.
     //!End Vector Use
 

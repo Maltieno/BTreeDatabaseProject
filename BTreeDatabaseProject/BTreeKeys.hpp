@@ -10,8 +10,8 @@ public:
 	int keyID; //ID To Identify and Locate/Create/Deallocate
 
 	//! Below is the DATA Stored in the key, this can be changed and modified to suit different Programs.
-	//! All Data stored here should NOT Be used in making of BTREE PROJECT
-	int data; //Basic Int Data Var, for storing one Int.
+	//! All Data stored here should NOT Be used in making of Lib BTREE PROJECT
+	int data; //Example of Basic Int Data Var, for storing one Int.
 
 	//! End Data Storage.
 	
