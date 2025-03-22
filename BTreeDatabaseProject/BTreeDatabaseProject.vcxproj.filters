@@ -15,12 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BTreeDatabaseProject.cpp">
+    <ClCompile Include="src\main\BTreeDatabaseProject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BTreeNode.hpp">
+    <ClInclude Include="src\main\BTreeKeys.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main\BTreeNode.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -5,6 +5,7 @@
 #include <vector>
 
 #include "BTreeKeys.hpp"
+#include "json.hpp"
 
 class BTreeNode
 {
