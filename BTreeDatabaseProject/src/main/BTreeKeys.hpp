@@ -3,6 +3,11 @@
 
 #include <iostream>
 
+#include "json.hpp"
+
+// for convenience
+using json = nlohmann::json;
+
 //! This Header Defines individual keys inside our B-Tree
 class BTreeKey
 {

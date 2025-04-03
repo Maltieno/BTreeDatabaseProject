@@ -1,0 +1,8 @@
+{
+  "BTree":
+  {
+    "minKeys": 2,
+    "allowDuplicates": false,
+    "storagePath": "btree_data.json" 
+  }
+}
