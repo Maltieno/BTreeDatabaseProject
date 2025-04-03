@@ -2,7 +2,7 @@
   "BTree":
   {
     "minKeys": 2,
-    "allowDuplicates": false, //not implemented yet
-    "storagePath": "btree_data.json" //not created yet
+    "allowDuplicates": false,
+    "storagePath": "btree_data.json" 
   }
 }

@@ -1,6 +1,3 @@
-//todo Read Input from a console input.
-//todo Setup Parameters for the B-Tree Database, Such as amount of Keys per Node
-//todo Setup Node to dynamically store an amount of keys
 //todo Add Pushing Key onto tree
 //todo Add Deleting Key From tree
 //todo Add Searching for keys
@@ -12,6 +9,7 @@
 #include <iostream>
 #include <vector>
 #include <fstream>
+#include <filesystem>
 
 #include "BTreeKeys.hpp"
 #include "BTreeNode.hpp"
@@ -20,14 +18,11 @@
 
 int main()
 {
-    std::string testing;
-
-    std::cin >> testing;
-    std::cout << testing << "\n";
-
-
     //!Read Config for BTree, set Vars from config
-    std::ifstream cfgFile("C:/Users/Jay/source/repos/Maltieno/BTreeDatabaseProject/BTreeDatabaseProject/cfg/cfg.json"); // Read Our CFG file
+    std::string projectDir = std::filesystem::current_path().string(); //Get Project Directory
+	std::string cfgFileDir = projectDir + "/cfg/cfg.json";             //Get Config File Directory
+    std::ifstream cfgFile(cfgFileDir);                                 // Read Our CFG file
+
     if (!cfgFile) //if file is missing, throw an error
     {
         std::cerr << "Error: Could not open " << "cfg.json" << std::endl;
@@ -50,6 +45,8 @@ int main()
     //!END TESTING
     
     //! End Config for BTree
+
+	
     
     return 0;
 }
